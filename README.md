@@ -1,4 +1,4 @@
-# Lais_Cardoso_de_Medeiros
+Laís Cardoso de Medeiros - Portfólio
 
 Estudante de Engenharia da Computação na Universidade Federal do Recôncavo da Bahia (UFRB) em contato com o aprendizado de tecnologias. Durante a minha trajetória na Universidade, fui apresentada aos conceitos de Lógica de Programação (Python e C), Programação Orientada a Objetos (Java), Estrutura de Dados (C) e Banco de Dados (SQL e Node Js). 
 
