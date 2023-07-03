@@ -1,8 +1,9 @@
 import {makeStyles} from '@material-ui/core';
 
 const styles = makeStyles((theme) =>({
-    body:{
-        backgroundColor: "gray",
+    root:{
+        background: 'red',
+        height: '100vh'
     },
     homeBackground:{
         //nao esta centralizado responsivo
@@ -16,6 +17,17 @@ const styles = makeStyles((theme) =>({
         flexDirection: 'row',
         marginLeft: '10%',
         marginTop: '5%',
+        borderRadius: '16px'
+    },
+    center: {
+        display:'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    center1: {
+        display:'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
     }
 }));
 
