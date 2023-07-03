@@ -4,7 +4,6 @@ import React from 'react';
 import { Container, Button, Grid, TextField, CardContent, CardActions, Box, Typography, Avatar, ThemeProvider } from '@material-ui/core/';
 //icons-material nao instalou
 
-
 function Home() {
     return (
         <Container className={styles().homeBackground}>
