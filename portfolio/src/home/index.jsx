@@ -52,18 +52,18 @@ function Home() {
                 </Grid>
                 <Grid item xs={12}>
                     <CardContent color="text.secondary">
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                        <Typography  color="text.secondary" gutterBottom>
                             Sobre mim
                         </Typography>
                         <Typography variant="h5" component="div">
 
                         </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        <Typography color="text.secondary">
                             Recode jr
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                        <Typography  color="text.secondary" gutterBottom>
                             Sobre mim
                         </Typography>
                         <Button size="small">Contato</Button>
