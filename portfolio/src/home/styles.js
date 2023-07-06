@@ -2,13 +2,13 @@ import {makeStyles} from '@material-ui/core';
 
 const styles = makeStyles((theme) =>({
     root:{
-        background: 'red',
-        height: '100vh'
+        //height: '100vh',
+        flexGrow: 1,
     },
     homeBackground:{
         //nao esta centralizado responsivo
         margin: 0,
-        backgroundColor: "#2c2c2c",
+        background: "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,5,13,1) 33%, rgba(12,0,14,1) 100%)",
         justifyContent: 'center',
         width: "80vw",
         height: "80vh",
@@ -23,12 +23,14 @@ const styles = makeStyles((theme) =>({
         display:'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        textAlign:'center',
+        color: theme.palette.text.primary,
     },
-    center1: {
-        display:'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-    }
+    paper: {
+        padding: theme.spacing(1),
+        textAlign: 'center',
+        color: theme.palette.text.primary,
+      },
 }));
 
 export default styles;
