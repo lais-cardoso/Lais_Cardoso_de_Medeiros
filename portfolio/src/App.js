@@ -17,7 +17,27 @@ function App() {
         'EB Garamond',
         '"serif"'
       ].join(','),
-    }
+    }, 
+    palette: {
+      primary: {
+        light: '#FFFFFF',
+        main: '#3f50b5',
+        dark: '#002884',
+        contrastText: '#fff',
+      },
+      secondary: {
+        light: '#ff7961',
+        main: '#f44336',
+        dark: '#ba000d',
+        contrastText: '#000',
+      },
+      third: {
+        light: '#5fba7d',
+        main: '#f44336',
+        dark: '#ba000d',
+        contrastText: '#000',
+      },
+    },
   })
   return (
     <ThemeProvider theme={theme}>
