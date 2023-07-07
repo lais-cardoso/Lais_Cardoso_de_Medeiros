@@ -28,42 +28,42 @@ function Home() {
         <Container className={styles().root}>
 
             <Grid className={styles().center} container item xs={12} >
-                
+
                 <Grid container item xs={12} className={styles().center}>
-                    <Typography style={{ fontFamily: 'Oswald', fontWeight: "400", weight: "300px", color:"#ffffff", marginTop: "40vh", fontSize: 50}}>
+                    <Typography style={{ fontFamily: 'Oswald', fontWeight: "400", weight: "300px", color: "#ffffff", marginTop: "40vh", fontSize: 50 }}>
                         Laís Cardoso de Medeiros
                     </Typography>
                 </Grid>
 
                 <Grid container item xs={12} className={styles().center}>
-                    <Typography style={{ fontFamily: 'Liu Jian Mao Cao', fontWeight: "400", weight: "300px", color:"#ffffff",  fontSize: 35}}>
+                    <Typography style={{ fontFamily: 'Liu Jian Mao Cao', fontWeight: "400", weight: "300px", color: "#ffffff", fontSize: 35 }}>
                         Desenvolvedora FullStack
                     </Typography>
                 </Grid>
 
                 <Grid container spacing={1} className={styles().center}>
-                    <KeyboardArrowDownIcon style={{color:"#FFFFFF", fontSize: 40}} />
+                    <KeyboardArrowDownIcon style={{ color: "#FFFFFF", fontSize: 40 }} />
                 </Grid>
-                
+
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                     <Grid item xs={12} md={3}>
-                        <Button variant="outlined" style={{color:"#FFFFFF", borderColor:"#ffffff"}} href="https://github.com/lais-cardoso">GitHub</Button>
+                        <Button variant="outlined" style={{ color: "#FFFFFF", borderColor: "#ffffff" }} href="https://github.com/lais-cardoso">GitHub</Button>
                     </Grid>
                     <Grid item xs={12} md={3}>
-                        <Button variant="outlined" style={{color:"#FFFFFF", borderColor:"#ffffff"}} href="https://www.linkedin.com/in/lais-cardoso-de-medeiros-074774236/">Linkedin</Button>
+                        <Button variant="outlined" style={{ color: "#FFFFFF", borderColor: "#ffffff" }} href="https://www.linkedin.com/in/lais-cardoso-de-medeiros-074774236/">Linkedin</Button>
                     </Grid>
                     <Grid item xs={12} md={3}>
-                        <Button variant="outlined" style={{color:"#FFFFFF", borderColor:"#ffffff"}} href="mailto:englaiscardosodemedeiros@gmail.com?subject=&body=">Gmail</Button>
+                        <Button variant="outlined" style={{ color: "#FFFFFF", borderColor: "#ffffff" }} href="mailto:englaiscardosodemedeiros@gmail.com?subject=&body=">Gmail</Button>
                     </Grid>
                     <Grid item xs={12} md={3}>
-                        <Button variant="outlined" style={{color:"#FFFFFF", borderColor:"#ffffff"}} href="http://lattes.cnpq.br/7464083861535129">Currículo Lattes</Button>
+                        <Button variant="outlined" style={{ color: "#FFFFFF", borderColor: "#ffffff" }} href="http://lattes.cnpq.br/7464083861535129">Currículo Lattes</Button>
                     </Grid>
                 </Grid>
             </Grid>
 
             <Grid container justifyContent="center">
                 <Grid item xs={12}>
-                    <CardContent style={{ fontFamily: 'Oswald', fontWeight: "400", weight: "300px", color:"#ffffff", marginTop: "40vh", fontSize: 50}}>
+                    <CardContent style={{ fontFamily: 'Oswald', fontWeight: "400", weight: "300px", color: "#ffffff", marginTop: "40vh", fontSize: 50 }}>
                         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                             Experiência
                         </Typography>
@@ -98,15 +98,44 @@ function Home() {
             </Grid>
 
 
-            <Grid container spacing={1}>
+            <Grid container spacing={1} className={styles().homeBackground}>
+
+                <Typography style={{ fontFamily: 'Oswald', fontWeight: "400", weight: "300px", color: "#ffffff", fontSize: 35 }}>
+                    Projetos
+                </Typography>
+
                 <Grid container item xs={12} spacing={3}>
-                    <FormRow />
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
                 </Grid>
                 <Grid container item xs={12} spacing={3}>
-                    <FormRow />
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
                 </Grid>
                 <Grid container item xs={12} spacing={3}>
-                    <FormRow />
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Paper className={styles().paper}>item</Paper>
+                    </Grid>
                 </Grid>
             </Grid>
 
