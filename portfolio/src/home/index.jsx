@@ -4,6 +4,7 @@ import React from 'react';
 import { Container, Button, Grid, TextField, CardContent, CardActions, Box, Typography, Avatar, Paper } from '@material-ui/core/';
 import { palette } from '@mui/system';
 import { experimentalStyled as styled } from '@mui/material/styles';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 //icons-material nao instalou
 
 function FormRow() {
@@ -39,16 +40,23 @@ function Home() {
                         Desenvolvedora FullStack
                     </Typography>
                 </Grid>
+
+                <Grid container spacing={1} className={styles().center}>
+                    <KeyboardArrowDownIcon style={{color:"#FFFFFF", fontSize: 40}} />
+                </Grid>
                 
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                    <Grid item xs={12} md={4}>
-                        <Button variant="outlined">GitHub</Button>
+                    <Grid item xs={12} md={3}>
+                        <Button variant="outlined" style={{color:"#FFFFFF", borderColor:"#ffffff"}} href="https://github.com/lais-cardoso">GitHub</Button>
                     </Grid>
-                    <Grid item xs={12} md={4}>
-                        <Button variant="outlined">Linkedin</Button>
+                    <Grid item xs={12} md={3}>
+                        <Button variant="outlined" style={{color:"#FFFFFF", borderColor:"#ffffff"}} href="https://www.linkedin.com/in/lais-cardoso-de-medeiros-074774236/">Linkedin</Button>
                     </Grid>
-                    <Grid item xs={12} md={4}>
-                        <Button variant="outlined">Gmail</Button>
+                    <Grid item xs={12} md={3}>
+                        <Button variant="outlined" style={{color:"#FFFFFF", borderColor:"#ffffff"}} href="mailto:englaiscardosodemedeiros@gmail.com?subject=&body=">Gmail</Button>
+                    </Grid>
+                    <Grid item xs={12} md={3}>
+                        <Button variant="outlined" style={{color:"#FFFFFF", borderColor:"#ffffff"}} href="http://lattes.cnpq.br/7464083861535129">Currículo Lattes</Button>
                     </Grid>
                 </Grid>
             </Grid>
